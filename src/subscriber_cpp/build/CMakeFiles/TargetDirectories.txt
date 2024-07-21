@@ -1,0 +1,10 @@
+/home/sophia/Documents/GitHub/ROS2_PubSub/src/subscriber_cpp/build/CMakeFiles/uninstall.dir
+/home/sophia/Documents/GitHub/ROS2_PubSub/src/subscriber_cpp/build/CMakeFiles/subscriber_cpp_uninstall.dir
+/home/sophia/Documents/GitHub/ROS2_PubSub/src/subscriber_cpp/build/CMakeFiles/listener.dir
+/home/sophia/Documents/GitHub/ROS2_PubSub/src/subscriber_cpp/build/CMakeFiles/test.dir
+/home/sophia/Documents/GitHub/ROS2_PubSub/src/subscriber_cpp/build/CMakeFiles/edit_cache.dir
+/home/sophia/Documents/GitHub/ROS2_PubSub/src/subscriber_cpp/build/CMakeFiles/rebuild_cache.dir
+/home/sophia/Documents/GitHub/ROS2_PubSub/src/subscriber_cpp/build/CMakeFiles/list_install_components.dir
+/home/sophia/Documents/GitHub/ROS2_PubSub/src/subscriber_cpp/build/CMakeFiles/install.dir
+/home/sophia/Documents/GitHub/ROS2_PubSub/src/subscriber_cpp/build/CMakeFiles/install/local.dir
+/home/sophia/Documents/GitHub/ROS2_PubSub/src/subscriber_cpp/build/CMakeFiles/install/strip.dir
