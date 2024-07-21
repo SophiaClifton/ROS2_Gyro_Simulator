@@ -20,7 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-                'talker = publsiher_py.publisher:main',
+                'talker = publisher_py.publisher:main',
         ],
     },
 )
