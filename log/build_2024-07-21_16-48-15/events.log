@@ -1,0 +1,203 @@
+[0.000000] (-) TimerEvent: {}
+[0.000307] (publisher_py) JobQueued: {'identifier': 'publisher_py', 'dependencies': OrderedDict()}
+[0.000366] (subscriber_cpp) JobQueued: {'identifier': 'subscriber_cpp', 'dependencies': OrderedDict()}
+[0.000388] (publisher_py) JobStarted: {'identifier': 'publisher_py'}
+[0.009051] (subscriber_cpp) JobStarted: {'identifier': 'subscriber_cpp'}
+[0.099096] (-) TimerEvent: {}
+[0.199549] (-) TimerEvent: {}
+[0.266033] (subscriber_cpp) JobProgress: {'identifier': 'subscriber_cpp', 'progress': 'cmake'}
+[0.266570] (subscriber_cpp) Command: {'cmd': ['/usr/bin/cmake', '/home/sophia/Documents/GitHub/ROS2_PubSub/src/subscriber_cpp', '-DCMAKE_INSTALL_PREFIX=/home/sophia/Documents/GitHub/ROS2_PubSub/install/subscriber_cpp'], 'cwd': '/home/sophia/Documents/GitHub/ROS2_PubSub/build/subscriber_cpp', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'sophia'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/sophia'), ('OLDPWD', '/home/sophia/Documents/GitHub/ROS2_PubSub/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1496'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sophia'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sophia'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/sophia-Laptop:@/tmp/.ICE-unix/1473,unix/sophia-Laptop:/tmp/.ICE-unix/1473'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/ae511777_71bb_49d6_946f_3a5415fd81a7'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.TTE9Q2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.103'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sophia/Documents/GitHub/ROS2_PubSub/build/subscriber_cpp'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.299710] (-) TimerEvent: {}
+[0.342668] (subscriber_cpp) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.399876] (-) TimerEvent: {}
+[0.410719] (subscriber_cpp) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.418740] (subscriber_cpp) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.500014] (-) TimerEvent: {}
+[0.511241] (subscriber_cpp) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.517915] (subscriber_cpp) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.518221] (subscriber_cpp) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.518469] (subscriber_cpp) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.521374] (subscriber_cpp) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.600201] (-) TimerEvent: {}
+[0.628727] (subscriber_cpp) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.635840] (subscriber_cpp) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.636324] (subscriber_cpp) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.636465] (subscriber_cpp) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.639539] (subscriber_cpp) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.677958] (publisher_py) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/publisher_py', 'build', '--build-base', '/home/sophia/Documents/GitHub/ROS2_PubSub/build/publisher_py/build', 'install', '--record', '/home/sophia/Documents/GitHub/ROS2_PubSub/build/publisher_py/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/sophia/Documents/GitHub/ROS2_PubSub/src/publisher_py', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_CA:en', 'USER': 'sophia', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/sophia', 'OLDPWD': '/home/sophia/Documents/GitHub/ROS2_PubSub/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1496', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'sophia', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'sophia', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/sophia-Laptop:@/tmp/.ICE-unix/1473,unix/sophia-Laptop:/tmp/.ICE-unix/1473', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/ae511777_71bb_49d6_946f_3a5415fd81a7', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.TTE9Q2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.103', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/sophia/Documents/GitHub/ROS2_PubSub/build/publisher_py', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/sophia/Documents/GitHub/ROS2_PubSub/build/publisher_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sophia/Documents/GitHub/ROS2_PubSub/install/publisher_py/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[0.700365] (-) TimerEvent: {}
+[0.800889] (-) TimerEvent: {}
+[0.806596] (subscriber_cpp) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.901042] (-) TimerEvent: {}
+[0.901452] (publisher_py) StdoutLine: {'line': b'running egg_info\n'}
+[0.902678] (publisher_py) StdoutLine: {'line': b'creating ../../build/publisher_py/publisher_py.egg-info\n'}
+[0.903011] (publisher_py) StdoutLine: {'line': b'writing ../../build/publisher_py/publisher_py.egg-info/PKG-INFO\n'}
+[0.903332] (publisher_py) StdoutLine: {'line': b'writing dependency_links to ../../build/publisher_py/publisher_py.egg-info/dependency_links.txt\n'}
+[0.903528] (publisher_py) StdoutLine: {'line': b'writing entry points to ../../build/publisher_py/publisher_py.egg-info/entry_points.txt\n'}
+[0.903665] (publisher_py) StdoutLine: {'line': b'writing requirements to ../../build/publisher_py/publisher_py.egg-info/requires.txt\n'}
+[0.903767] (publisher_py) StdoutLine: {'line': b'writing top-level names to ../../build/publisher_py/publisher_py.egg-info/top_level.txt\n'}
+[0.903917] (publisher_py) StdoutLine: {'line': b"writing manifest file '../../build/publisher_py/publisher_py.egg-info/SOURCES.txt'\n"}
+[0.906113] (subscriber_cpp) StdoutLine: {'line': b'-- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.906428] (publisher_py) StdoutLine: {'line': b"reading manifest file '../../build/publisher_py/publisher_py.egg-info/SOURCES.txt'\n"}
+[0.906549] (publisher_py) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[0.906976] (publisher_py) StdoutLine: {'line': b"writing manifest file '../../build/publisher_py/publisher_py.egg-info/SOURCES.txt'\n"}
+[0.907160] (publisher_py) StdoutLine: {'line': b'running build\n'}
+[0.907211] (publisher_py) StdoutLine: {'line': b'running build_py\n'}
+[0.907305] (publisher_py) StdoutLine: {'line': b'creating /home/sophia/Documents/GitHub/ROS2_PubSub/build/publisher_py/build\n'}
+[0.907386] (publisher_py) StdoutLine: {'line': b'creating /home/sophia/Documents/GitHub/ROS2_PubSub/build/publisher_py/build/lib\n'}
+[0.907471] (publisher_py) StdoutLine: {'line': b'creating /home/sophia/Documents/GitHub/ROS2_PubSub/build/publisher_py/build/lib/publisher_py\n'}
+[0.907547] (publisher_py) StdoutLine: {'line': b'copying publisher_py/__init__.py -> /home/sophia/Documents/GitHub/ROS2_PubSub/build/publisher_py/build/lib/publisher_py\n'}
+[0.907646] (publisher_py) StdoutLine: {'line': b'copying publisher_py/publisher.py -> /home/sophia/Documents/GitHub/ROS2_PubSub/build/publisher_py/build/lib/publisher_py\n'}
+[0.907886] (publisher_py) StdoutLine: {'line': b'running install\n'}
+[0.908411] (publisher_py) StdoutLine: {'line': b'running install_lib\n'}
+[0.909459] (publisher_py) StdoutLine: {'line': b'creating /home/sophia/Documents/GitHub/ROS2_PubSub/install/publisher_py/lib/python3.10/site-packages/publisher_py\n'}
+[0.909603] (publisher_py) StdoutLine: {'line': b'copying /home/sophia/Documents/GitHub/ROS2_PubSub/build/publisher_py/build/lib/publisher_py/__init__.py -> /home/sophia/Documents/GitHub/ROS2_PubSub/install/publisher_py/lib/python3.10/site-packages/publisher_py\n'}
+[0.909682] (publisher_py) StdoutLine: {'line': b'copying /home/sophia/Documents/GitHub/ROS2_PubSub/build/publisher_py/build/lib/publisher_py/publisher.py -> /home/sophia/Documents/GitHub/ROS2_PubSub/install/publisher_py/lib/python3.10/site-packages/publisher_py\n'}
+[0.910335] (publisher_py) StdoutLine: {'line': b'byte-compiling /home/sophia/Documents/GitHub/ROS2_PubSub/install/publisher_py/lib/python3.10/site-packages/publisher_py/__init__.py to __init__.cpython-310.pyc\n'}
+[0.910621] (publisher_py) StdoutLine: {'line': b'byte-compiling /home/sophia/Documents/GitHub/ROS2_PubSub/install/publisher_py/lib/python3.10/site-packages/publisher_py/publisher.py to publisher.cpython-310.pyc\n'}
+[0.911119] (publisher_py) StdoutLine: {'line': b'running install_data\n'}
+[0.911232] (publisher_py) StdoutLine: {'line': b'creating /home/sophia/Documents/GitHub/ROS2_PubSub/install/publisher_py/share/ament_index\n'}
+[0.911302] (publisher_py) StdoutLine: {'line': b'creating /home/sophia/Documents/GitHub/ROS2_PubSub/install/publisher_py/share/ament_index/resource_index\n'}
+[0.911372] (publisher_py) StdoutLine: {'line': b'creating /home/sophia/Documents/GitHub/ROS2_PubSub/install/publisher_py/share/ament_index/resource_index/packages\n'}
+[0.911439] (publisher_py) StdoutLine: {'line': b'copying resource/publisher_py -> /home/sophia/Documents/GitHub/ROS2_PubSub/install/publisher_py/share/ament_index/resource_index/packages\n'}
+[0.911523] (publisher_py) StdoutLine: {'line': b'copying package.xml -> /home/sophia/Documents/GitHub/ROS2_PubSub/install/publisher_py/share/publisher_py\n'}
+[0.911597] (publisher_py) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.914079] (publisher_py) StdoutLine: {'line': b'Copying ../../build/publisher_py/publisher_py.egg-info to /home/sophia/Documents/GitHub/ROS2_PubSub/install/publisher_py/lib/python3.10/site-packages/publisher_py-0.0.0-py3.10.egg-info\n'}
+[0.915063] (publisher_py) StdoutLine: {'line': b'running install_scripts\n'}
+[0.940491] (publisher_py) StdoutLine: {'line': b'Installing talker script to /home/sophia/Documents/GitHub/ROS2_PubSub/install/publisher_py/lib/publisher_py\n'}
+[0.940997] (publisher_py) StdoutLine: {'line': b"writing list of installed files to '/home/sophia/Documents/GitHub/ROS2_PubSub/build/publisher_py/install.log'\n"}
+[0.946543] (subscriber_cpp) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.951363] (subscriber_cpp) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.959275] (subscriber_cpp) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.972603] (subscriber_cpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.990935] (subscriber_cpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.001387] (-) TimerEvent: {}
+[1.011729] (publisher_py) CommandEnded: {'returncode': 0}
+[1.028666] (publisher_py) JobEnded: {'identifier': 'publisher_py', 'rc': 0}
+[1.054389] (subscriber_cpp) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.056474] (subscriber_cpp) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.101545] (-) TimerEvent: {}
+[1.195152] (subscriber_cpp) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.201682] (-) TimerEvent: {}
+[1.223094] (subscriber_cpp) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.274233] (subscriber_cpp) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.282443] (subscriber_cpp) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.301893] (-) TimerEvent: {}
+[1.376009] (subscriber_cpp) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.376382] (subscriber_cpp) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.402051] (-) TimerEvent: {}
+[1.471384] (subscriber_cpp) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.472005] (subscriber_cpp) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.502186] (-) TimerEvent: {}
+[1.602651] (-) TimerEvent: {}
+[1.608193] (subscriber_cpp) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[1.702890] (-) TimerEvent: {}
+[1.709896] (subscriber_cpp) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.719715] (subscriber_cpp) StdoutLine: {'line': b'-- Generating done\n'}
+[1.721273] (subscriber_cpp) StdoutLine: {'line': b'-- Build files have been written to: /home/sophia/Documents/GitHub/ROS2_PubSub/build/subscriber_cpp\n'}
+[1.739984] (subscriber_cpp) CommandEnded: {'returncode': 0}
+[1.740754] (subscriber_cpp) JobProgress: {'identifier': 'subscriber_cpp', 'progress': 'build'}
+[1.741986] (subscriber_cpp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/sophia/Documents/GitHub/ROS2_PubSub/build/subscriber_cpp', '--', '-j8', '-l8'], 'cwd': '/home/sophia/Documents/GitHub/ROS2_PubSub/build/subscriber_cpp', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'sophia'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/sophia'), ('OLDPWD', '/home/sophia/Documents/GitHub/ROS2_PubSub/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1496'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sophia'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sophia'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/sophia-Laptop:@/tmp/.ICE-unix/1473,unix/sophia-Laptop:/tmp/.ICE-unix/1473'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/ae511777_71bb_49d6_946f_3a5415fd81a7'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.TTE9Q2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.103'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sophia/Documents/GitHub/ROS2_PubSub/build/subscriber_cpp'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.801903] (subscriber_cpp) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber.cpp.o\x1b[0m\n'}
+[1.802950] (-) TimerEvent: {}
+[1.903200] (-) TimerEvent: {}
+[2.003584] (-) TimerEvent: {}
+[2.103957] (-) TimerEvent: {}
+[2.204359] (-) TimerEvent: {}
+[2.304738] (-) TimerEvent: {}
+[2.405225] (-) TimerEvent: {}
+[2.505618] (-) TimerEvent: {}
+[2.606026] (-) TimerEvent: {}
+[2.706436] (-) TimerEvent: {}
+[2.806826] (-) TimerEvent: {}
+[2.907172] (-) TimerEvent: {}
+[3.007565] (-) TimerEvent: {}
+[3.107963] (-) TimerEvent: {}
+[3.208364] (-) TimerEvent: {}
+[3.308763] (-) TimerEvent: {}
+[3.409168] (-) TimerEvent: {}
+[3.509588] (-) TimerEvent: {}
+[3.609997] (-) TimerEvent: {}
+[3.710399] (-) TimerEvent: {}
+[3.810836] (-) TimerEvent: {}
+[3.911235] (-) TimerEvent: {}
+[4.011630] (-) TimerEvent: {}
+[4.112036] (-) TimerEvent: {}
+[4.212443] (-) TimerEvent: {}
+[4.312836] (-) TimerEvent: {}
+[4.413241] (-) TimerEvent: {}
+[4.513637] (-) TimerEvent: {}
+[4.614038] (-) TimerEvent: {}
+[4.714433] (-) TimerEvent: {}
+[4.814845] (-) TimerEvent: {}
+[4.915212] (-) TimerEvent: {}
+[5.015619] (-) TimerEvent: {}
+[5.116006] (-) TimerEvent: {}
+[5.216412] (-) TimerEvent: {}
+[5.316805] (-) TimerEvent: {}
+[5.417213] (-) TimerEvent: {}
+[5.517608] (-) TimerEvent: {}
+[5.618021] (-) TimerEvent: {}
+[5.718397] (-) TimerEvent: {}
+[5.818844] (-) TimerEvent: {}
+[5.919239] (-) TimerEvent: {}
+[6.019638] (-) TimerEvent: {}
+[6.120038] (-) TimerEvent: {}
+[6.220534] (-) TimerEvent: {}
+[6.321241] (-) TimerEvent: {}
+[6.421733] (-) TimerEvent: {}
+[6.522155] (-) TimerEvent: {}
+[6.622536] (-) TimerEvent: {}
+[6.722940] (-) TimerEvent: {}
+[6.823326] (-) TimerEvent: {}
+[6.923715] (-) TimerEvent: {}
+[7.024095] (-) TimerEvent: {}
+[7.124491] (-) TimerEvent: {}
+[7.224873] (-) TimerEvent: {}
+[7.325247] (-) TimerEvent: {}
+[7.425638] (-) TimerEvent: {}
+[7.526009] (-) TimerEvent: {}
+[7.626398] (-) TimerEvent: {}
+[7.726802] (-) TimerEvent: {}
+[7.827168] (-) TimerEvent: {}
+[7.927546] (-) TimerEvent: {}
+[8.027932] (-) TimerEvent: {}
+[8.128328] (-) TimerEvent: {}
+[8.228699] (-) TimerEvent: {}
+[8.329075] (-) TimerEvent: {}
+[8.429462] (-) TimerEvent: {}
+[8.529850] (-) TimerEvent: {}
+[8.630275] (-) TimerEvent: {}
+[8.730684] (-) TimerEvent: {}
+[8.809114] (subscriber_cpp) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable listener\x1b[0m\n'}
+[8.830851] (-) TimerEvent: {}
+[8.931316] (-) TimerEvent: {}
+[9.031794] (-) TimerEvent: {}
+[9.132233] (-) TimerEvent: {}
+[9.232647] (-) TimerEvent: {}
+[9.257415] (subscriber_cpp) StdoutLine: {'line': b'[100%] Built target listener\n'}
+[9.271502] (subscriber_cpp) CommandEnded: {'returncode': 0}
+[9.305190] (subscriber_cpp) JobProgress: {'identifier': 'subscriber_cpp', 'progress': 'install'}
+[9.316251] (subscriber_cpp) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/sophia/Documents/GitHub/ROS2_PubSub/build/subscriber_cpp'], 'cwd': '/home/sophia/Documents/GitHub/ROS2_PubSub/build/subscriber_cpp', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'sophia'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/sophia'), ('OLDPWD', '/home/sophia/Documents/GitHub/ROS2_PubSub/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1496'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sophia'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sophia'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/sophia-Laptop:@/tmp/.ICE-unix/1473,unix/sophia-Laptop:/tmp/.ICE-unix/1473'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/ae511777_71bb_49d6_946f_3a5415fd81a7'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.TTE9Q2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.103'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sophia/Documents/GitHub/ROS2_PubSub/build/subscriber_cpp'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[9.324647] (subscriber_cpp) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.324921] (subscriber_cpp) StdoutLine: {'line': b'-- Installing: /home/sophia/Documents/GitHub/ROS2_PubSub/install/subscriber_cpp/lib/subscriber_cpp/listener\n'}
+[9.329571] (subscriber_cpp) StdoutLine: {'line': b'-- Set runtime path of "/home/sophia/Documents/GitHub/ROS2_PubSub/install/subscriber_cpp/lib/subscriber_cpp/listener" to ""\n'}
+[9.329859] (subscriber_cpp) StdoutLine: {'line': b'-- Installing: /home/sophia/Documents/GitHub/ROS2_PubSub/install/subscriber_cpp/share/ament_index/resource_index/package_run_dependencies/subscriber_cpp\n'}
+[9.330026] (subscriber_cpp) StdoutLine: {'line': b'-- Installing: /home/sophia/Documents/GitHub/ROS2_PubSub/install/subscriber_cpp/share/ament_index/resource_index/parent_prefix_path/subscriber_cpp\n'}
+[9.330222] (subscriber_cpp) StdoutLine: {'line': b'-- Installing: /home/sophia/Documents/GitHub/ROS2_PubSub/install/subscriber_cpp/share/subscriber_cpp/environment/ament_prefix_path.sh\n'}
+[9.330376] (subscriber_cpp) StdoutLine: {'line': b'-- Installing: /home/sophia/Documents/GitHub/ROS2_PubSub/install/subscriber_cpp/share/subscriber_cpp/environment/ament_prefix_path.dsv\n'}
+[9.330450] (subscriber_cpp) StdoutLine: {'line': b'-- Installing: /home/sophia/Documents/GitHub/ROS2_PubSub/install/subscriber_cpp/share/subscriber_cpp/environment/path.sh\n'}
+[9.330497] (subscriber_cpp) StdoutLine: {'line': b'-- Installing: /home/sophia/Documents/GitHub/ROS2_PubSub/install/subscriber_cpp/share/subscriber_cpp/environment/path.dsv\n'}
+[9.330589] (subscriber_cpp) StdoutLine: {'line': b'-- Installing: /home/sophia/Documents/GitHub/ROS2_PubSub/install/subscriber_cpp/share/subscriber_cpp/local_setup.bash\n'}
+[9.330685] (subscriber_cpp) StdoutLine: {'line': b'-- Installing: /home/sophia/Documents/GitHub/ROS2_PubSub/install/subscriber_cpp/share/subscriber_cpp/local_setup.sh\n'}
+[9.330862] (subscriber_cpp) StdoutLine: {'line': b'-- Installing: /home/sophia/Documents/GitHub/ROS2_PubSub/install/subscriber_cpp/share/subscriber_cpp/local_setup.zsh\n'}
+[9.331014] (subscriber_cpp) StdoutLine: {'line': b'-- Installing: /home/sophia/Documents/GitHub/ROS2_PubSub/install/subscriber_cpp/share/subscriber_cpp/local_setup.dsv\n'}
+[9.331155] (subscriber_cpp) StdoutLine: {'line': b'-- Installing: /home/sophia/Documents/GitHub/ROS2_PubSub/install/subscriber_cpp/share/subscriber_cpp/package.dsv\n'}
+[9.331353] (subscriber_cpp) StdoutLine: {'line': b'-- Installing: /home/sophia/Documents/GitHub/ROS2_PubSub/install/subscriber_cpp/share/ament_index/resource_index/packages/subscriber_cpp\n'}
+[9.331486] (subscriber_cpp) StdoutLine: {'line': b'-- Installing: /home/sophia/Documents/GitHub/ROS2_PubSub/install/subscriber_cpp/share/subscriber_cpp/cmake/subscriber_cppConfig.cmake\n'}
+[9.331606] (subscriber_cpp) StdoutLine: {'line': b'-- Installing: /home/sophia/Documents/GitHub/ROS2_PubSub/install/subscriber_cpp/share/subscriber_cpp/cmake/subscriber_cppConfig-version.cmake\n'}
+[9.331740] (subscriber_cpp) StdoutLine: {'line': b'-- Installing: /home/sophia/Documents/GitHub/ROS2_PubSub/install/subscriber_cpp/share/subscriber_cpp/package.xml\n'}
+[9.332710] (-) TimerEvent: {}
+[9.334664] (subscriber_cpp) CommandEnded: {'returncode': 0}
+[9.373853] (subscriber_cpp) JobEnded: {'identifier': 'subscriber_cpp', 'rc': 0}
+[9.374811] (-) EventReactorShutdown: {}

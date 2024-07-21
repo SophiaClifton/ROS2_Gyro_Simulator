@@ -1,0 +1,3 @@
+[console_scripts]
+talker = publisher_py.publisher:main
+
