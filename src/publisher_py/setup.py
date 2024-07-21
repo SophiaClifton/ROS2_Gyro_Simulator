@@ -15,11 +15,12 @@ setup(
     zip_safe=True,
     maintainer='sophia',
     maintainer_email='sophiashoco@gmail.com',
-    description='TODO: Package description',
+    description='Creates a publishing node that asks the user for coordinates that it will then publish to the created topic until interrupted/terminated.',
     license='Apache-2.0',
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+                'talker = publsiher_py.publisher:main',
         ],
     },
 )
