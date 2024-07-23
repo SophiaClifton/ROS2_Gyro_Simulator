@@ -13,7 +13,7 @@ This repository contains a ROS2 project with a Python publisher and a C++ subscr
 git clone https://github.com/SophiaClifton/ros2_pubsub.git
 cd ROS2_PubSub
 
-### Build cloned repo
+### Build the Cloned Repository
 cd src
 colcon build
 
