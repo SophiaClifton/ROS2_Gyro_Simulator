@@ -8,7 +8,7 @@ This repository contains a ROS2 project with a Python publisher and a C++ subscr
 - C++ compiler
 
 ## Steps
-
+```bash
 ### Clone the Repository
 git clone https://github.com/SophiaClifton/ros2_pubsub.git
 cd ROS2_PubSub
