@@ -18,7 +18,7 @@ cd ROS2_PubSub
 cd src
 colcon build
 ```
-## In two sperate terminals: 
+## In two seperate terminals: 
 ### Run the subscriber node
 ```bash
 source install/setup.bash
