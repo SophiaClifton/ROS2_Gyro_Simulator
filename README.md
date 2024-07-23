@@ -1,6 +1,6 @@
 # ROS2 Publisher and Subscriber
 
-This repository contains a ROS2 project with a Python publisher and a C++ subscriber. The publisher node asks the user for coordinates and publishes them to a topic. The subscriber node listens to that topic, receives the coordinates, and then publishes them.
+This repository contains a ROS2 project in which a Python publisher node and a C++ subscriber node communicate between each other. The publisher node asks the user for coordinates and publishes them to a topic. The subscriber node listens to that topic, receives the coordinates, and then prints them.
 
 ### Prerequisites
 - ROS2 Humble 
