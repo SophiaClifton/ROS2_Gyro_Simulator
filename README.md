@@ -7,19 +7,21 @@ This repository contains a ROS2 project with a Python publisher and a C++ subscr
 - Python 3
 - C++ compiler
 
+## Steps
+
 ### Clone the Repository
 git clone https://github.com/SophiaClifton/ros2_pubsub.git
 cd ROS2_PubSub
 
-### How to build cloned repo
+### Build cloned repo
 cd src
 colcon build
 
 ## In two sperate terminals: 
-### How to run the subscriber node
+### Run the subscriber node
 source install/setup.bash
 ros2 run subscriber_cpp listener
 
-### How to run the publisher node
+### Run the publisher node
 source install/setup.bash
 ros2 run publisher_py talker
