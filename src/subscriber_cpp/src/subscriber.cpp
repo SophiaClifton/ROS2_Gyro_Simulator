@@ -2,29 +2,29 @@
 #include "geometry_msgs/msg/quaternion.hpp"
 
 
-class ListenerNode : public rclcpp::Node
+class AttitudeControl_Listener : public rclcpp::Node
 {
 public:
-  ListenerNode() : Node("listener_node")
+  AttitudeControl_Listener() : Node("altitude_controller")
   {
-    subscription_ = this->create_subscription<geometry_msgs::msg::Quaternion>(
-      "publishing_topic", 10, std::bind(&ListenerNode::topic_callback, this, std::placeholders::_1));
+    gyroscope_data_receiver = this->create_subscription<geometry_msgs::msg::Quaternion>(
+      "gyroscope_data_publisher", 10, std::bind(&AttitudeControl_Listener::topic_callback, this, std::placeholders::_1));
   }
 
 private:
   void topic_callback(const geometry_msgs::msg::Quaternion::SharedPtr msg)
   {
-    RCLCPP_INFO(get_logger(), "Received Quaternion: x=%f, y=%f, z=%f, w=%f",
+    RCLCPP_INFO(get_logger(), "Received data: x=%f, y=%f, z=%f, w=%f",
                 msg->x, msg->y, msg->z, msg->w);
   }
 
-  rclcpp::Subscription<geometry_msgs::msg::Quaternion>::SharedPtr subscription_;
+  rclcpp::Subscription<geometry_msgs::msg::Quaternion>::SharedPtr gyroscope_data_receiver;
 };
 
 int main(int argc, char * argv[])
 {
   rclcpp::init(argc, argv);
-  auto node = std::make_shared<ListenerNode>();
+  auto node = std::make_shared<AttitudeControl_Listener>();
   rclcpp::spin(node);
   rclcpp::shutdown();
   return 0;
