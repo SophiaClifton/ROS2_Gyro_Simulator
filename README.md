@@ -1,6 +1,6 @@
 # ROS2 Publisher and Subscriber Project
 
-This repository contains a ROS2 project in which a Python publisher node and a C++ subscriber node communicate between each other. The publisher node asks the user for coordinates and publishes them to a topic. The subscriber node listens to that topic, receives the coordinates, and then prints them.
+This repository contains a ROS2 project in which a Python publisher node -> simulating a gyroscope, and a C++ subscriber node -> simulating an altitude controller, communicate between each other. The publishing node will publish random data simulating a gyroscope's data every 10 seconds, which will in turn be received by the simulated altitude controller.
 
 ### Prerequisites
 - ROS2 Humble 
@@ -22,10 +22,10 @@ colcon build
 ### Run the subscriber node
 ```bash
 source install/setup.bash
-ros2 run subscriber_cpp listener
+ros2 run gyro_receiver listener
 ```
 ### Run the publisher node
 ```bash
 source install/setup.bash
-ros2 run publisher_py talker
+ros2 run gyro_publisher talker
 ```
