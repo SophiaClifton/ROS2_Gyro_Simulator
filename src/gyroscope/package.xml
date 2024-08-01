@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
-  <name>gyro_publisher</name>
+  <name>gyroscope</name>
   <version>0.0.0</version>
-  <description>Creates a publishing node that asks the user for coordinates that it will then publish to the created topic until interrupted/terminated.</description>
+  <description>Creates a publishing node that simulates and publishes data from a gyroscope until interrupted/terminated.</description>
   <maintainer email="sophiashoco@gmail.com">sophia</maintainer>
   <license>Apache-2.0</license>
 

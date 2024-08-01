@@ -1,6 +1,6 @@
 from setuptools import find_packages, setup
 
-package_name = 'gyro_publisher'
+package_name = 'gyroscope'
 
 setup(
     name=package_name,
@@ -15,12 +15,12 @@ setup(
     zip_safe=True,
     maintainer='sophia',
     maintainer_email='sophiashoco@gmail.com',
-    description='Creates a publishing node that asks the user for coordinates that it will then publish to the created topic until interrupted/terminated.',
+    description='Creates a publishing node that simulates and publishes data from a gyroscope until interrupted/terminated.',
     license='Apache-2.0',
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-                'talker = gyro_publisher.gyro_data_publisher:main',
+                'talker = gyroscope.gyro_data_publisher:main',
         ],
     },
 )
